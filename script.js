@@ -103,7 +103,7 @@ document.querySelector('.again').addEventListener('click', function(){
     secrateNumber = Math.trunc(Math.random() * 20) + 1;
     document.querySelector('body').style.backgroundColor = '#222';
     //document.querySelector('.number').textContent = '?'
-    displayMessage('?')
+    displayNumber('?')
     //document.querySelector('.message').textContent = 'Start guessing...';
     displayMessage('Start guessing...')
     //document.querySelector('.score').textContent = 0;
